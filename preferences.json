@@ -1,0 +1,61 @@
+{
+  "profile_owner": "Manoj Kumar Reddy Koduru",
+  "ideal_positions": [
+    {
+      "title": "AI Engineer Intern",
+      "focus_areas": ["AI Agents", "Machine Learning", "Retrieval-Augmented Generation (RAG)", "Natural Language Processing"],
+      "preferred_languages": ["Python", "Java"],
+      "tools_frameworks": ["LangChain", "Streamlit", "Flask", "OpenAI API", "ChromaDB", "ZenRows"],
+      "desired_projects": ["AI Agents for automation", "Shopping comparison assistant", "File Query GPT", "Knowledge-based RAG apps"]
+    },
+    {
+      "title": "Software Developer Intern",
+      "focus_areas": ["Backend Development", "System Design", "API Development"],
+      "preferred_languages": ["Java", "Python", "C#"],
+      "tools_frameworks": ["Spring Boot", "Flask", "MySQL", "MongoDB", "Firebase"],
+      "desired_projects": ["Interest EMI Calculator", "Library Management System", "Time Table Generator"]
+    },
+    {
+      "title": "Data Analyst / ML Developer Intern",
+      "focus_areas": ["Data Visualization", "Predictive Modelling", "Business Insights"],
+      "preferred_languages": ["Python", "SQL"],
+      "tools_frameworks": ["Power BI", "Pandas", "NumPy", "Scikit-learn", "LightGBM"],
+      "desired_projects": ["Customer Segmentation", "Uber Ride Insights", "Pharmaceutical Sales Dashboard"]
+    },
+    {
+      "title": "Cybersecurity / Cryptography Researcher Intern",
+      "focus_areas": ["Data Security", "Encryption Algorithms", "Secure Communication"],
+      "preferred_languages": ["Python", "C++"],
+      "tools_frameworks": ["PyCryptodome", "OpenSSL"],
+      "desired_projects": ["Cryptography-based AI Systems", "Secure File Storage", "Encryption-decryption Utilities"]
+    }
+  ],
+  "ideal_company_types": [
+    {
+      "type": "AI Startup",
+      "characteristics": ["Fast-paced", "Research-driven", "Experimentation-friendly", "Collaborative"],
+      "example_companies": ["Hugging Face", "Anthropic", "Cohere"]
+    },
+    {
+      "type": "Tech Giant / Product Company",
+      "characteristics": ["Scalable Systems", "Strong Engineering Culture", "Learning Opportunities"],
+      "example_companies": ["Google", "OpenAI", "Microsoft", "Amazon"]
+    },
+    {
+      "type": "Data-driven Company",
+      "characteristics": ["Analytics Focused", "Decision-oriented", "Automation-driven"],
+      "example_companies": ["Tableau", "Palantir", "Turing", "Zynga"]
+    },
+    {
+      "type": "Cybersecurity / Research Lab",
+      "characteristics": ["Innovative", "Privacy-oriented", "Security-focused"],
+      "example_companies": ["Kaspersky Lab", "Cloudflare", "FireEye"]
+    }
+  ],
+  "work_preferences": {
+    "location": ["Remote", "Hybrid", "Bangalore", "Hyderabad"],
+    "team_culture": ["Collaborative", "Growth-focused", "Innovative"],
+    "project_types": ["AI Automation", "Data-driven Insights", "Secure Systems Development"],
+    "career_goals": ["Build impactful AI tools", "Contribute to open-source projects", "Develop advanced cryptography systems"]
+  }
+}

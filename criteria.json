@@ -1,0 +1,7 @@
+{
+  "title": "Software Engineer",
+  "location": "San Francisco",
+  "min_salary": 100000,
+  "skills": ["Python", "AI", "Machine Learning"],
+  "platforms": ["linkedin.com", "indeed.com"]
+}

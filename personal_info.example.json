@@ -1,0 +1,10 @@
+{
+  "name": "Your Full Name",
+  "email": "your.email@example.com",
+  "phone": "+1-xxx-xxx-xxxx",
+  "linkedin": "https://linkedin.com/in/yourprofile",
+  "address": "Your City, State",
+  "cover_letter_template": "Dear Hiring Manager,\n\nI am excited to apply for the {job_title} position at {company}. With my experience in {skills}, I believe I would be a great fit for your team.\n\nBest regards,\n{name}"
+}
+
+
