@@ -51,9 +51,17 @@ jobs_dashboard.csv
 filtered_jobs.csv
 jobs_dashboard_filtered.csv
 
+# Configuration with secrets
+config/mcp_config.json
+mcp_config.json
+
 # Submodules / Embedded repos
 firecrawl-mcp-server/
 mcp-servers/
+
+# IDE
+.vscode/
+.idea/
 
 # IDE
 .vscode/

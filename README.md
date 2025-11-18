@@ -1,34 +1,61 @@
-# 🚀 ApplyMate - Ready to Run!
+# 🤖 ApplyMate
 
----
+**AI-Powered Job Application Automation System** with intelligent job matching, scheduled browser automation, and multi-platform support.
 
-## 🚀 How to Run ApplyMate
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-### Quick Start (Recommended):
-```bash
-# 1. Run setup script
-setup.bat
-# OR for PowerShell:
-setup.ps1
+## ✨ Features
 
-# 2. Configure your settings
-# Edit .env with your API keys
-# Edit personal_info.json with your information
+- 🎯 **Intelligent Job Matching** - AI-powered resume parsing and job relevance scoring
+- ⏰ **Scheduled Automation** - Automatic job search and application at configured times
+- 🌐 **Multi-Platform Support** - LinkedIn, Indeed, Naukri, Glassdoor, and more
+- 🔐 **Secure Configuration** - Environment-based API key management
+- 📊 **Dashboard Interface** - Streamlit-based UI for monitoring and control
+- 🤖 **Browser Automation** - Selenium-powered form filling with intelligent field detection
+- 📧 **Email Notifications** - Get alerts when jobs are found and applications are sent
 
-# 3. Run the dashboard
-streamlit run app.py
+## 📁 Project Structure
+
+```
+ApplyMate/
+├── src/                    # Source code
+│   ├── agent.py           # Main job search agent
+│   ├── scheduled_automation.py  # Time-based automation
+│   ├── enhanced_job_applier.py  # Browser automation
+│   ├── enhanced_job_platforms.py # Platform integrations
+│   └── resume_parser.py   # AI resume parsing
+├── config/                # Configuration files
+│   ├── env.example        # Environment template
+│   ├── mcp_config.json    # MCP server configuration
+│   ├── preferences.json   # Job preferences
+│   └── personal_info.example.json
+├── scripts/               # Launcher scripts
+│   ├── setup.bat/ps1      # Setup scripts
+│   └── start_automation.bat/ps1
+├── docs/                  # Documentation
+│   ├── SETUP_GUIDE.md
+│   └── AUTOMATION_GUIDE.md
+├── tests/                 # Test files
+├── app.py                 # Streamlit dashboard
+├── main.py                # CLI entry point
+└── requirements.txt       # Dependencies
 ```
 
-### Manual Setup:
+## 🚀 Quick Start
+
+### 1. Setup
+
 ```bash
-# 1. Activate environment
-applymate-env\Scripts\activate
+# Run setup script
+.\scripts\setup.bat
+# OR
+.\scripts\setup.ps1
 
-# 2. Copy configuration templates
-copy env.example .env
-copy personal_info.example.json personal_info.json
-
-# 3. Edit configuration files with your data
+# This will:
+# - Create virtual environment
+# - Install dependencies
+# - Copy configuration templates
 
 # 4. Run agent
 python agent.py

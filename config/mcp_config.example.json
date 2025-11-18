@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "firecrawl": {
+      "command": "node",
+      "args": ["firecrawl-mcp-server/dist/index.js"],
+      "env": {
+        "FIRECRAWL_API_KEY": "your-api-key-here"
+      }
+    },
+    "stagehand": {
+      "command": "npx",
+      "args": ["-y", "@stage-hand/mcp-server"],
+      "env": {
+        "BROWSERBASE_API_KEY": "your-browserbase-api-key",
+        "BROWSERBASE_PROJECT_ID": "your-project-id"
+      }
+    }
+  }
+}

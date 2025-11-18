@@ -1,6 +1,12 @@
 from apscheduler.schedulers.background import BackgroundScheduler
 import asyncio
+import sys
+import os
 from datetime import datetime
+
+# Add src directory to path
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
+
 from agent import run_job_agent
 
 async def scheduled_run():

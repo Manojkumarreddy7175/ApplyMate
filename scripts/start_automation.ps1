@@ -43,7 +43,7 @@ switch ($choice) {
         Write-Host "This will run at configured times (default: 9 AM and 6 PM weekdays)" -ForegroundColor Yellow
         Write-Host "Press Ctrl+C to stop" -ForegroundColor Yellow
         Write-Host ""
-        python scheduled_automation.py
+        python ..\src\scheduled_automation.py
     }
     "2" {
         Write-Host ""

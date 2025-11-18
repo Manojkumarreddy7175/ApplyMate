@@ -3,6 +3,11 @@ import pandas as pd
 import asyncio
 import os
 import json
+import sys
+
+# Add src directory to path
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
+
 from agent import run_job_agent, parse_resume, collect_preferences
 
 st.title("MCP Job Application Agent Dashboard")
